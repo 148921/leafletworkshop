@@ -64,7 +64,7 @@ map.setView([0,0], 4);
 
  Få navigasjonen til å fungere. Over kartet er det fire knapper, som ikke gjør
  noe (enda). Når man klikker på dem, skal kartet vise enten Pingvindammen, Koengen,
- Torget eller hele Bergen. Under har vi lagt til en event listener på
+ Fløybanen eller hele Bergen. Under har vi lagt til en event listener på
  Pingvindammen-knappen, men den gjør ingenting enda. Fyll inn funksjonen slik at
  kartet endrer visning til Pingvindammen, og zoomer inn. Legg også til event
  listeners for de andre knappene. Koordinatene for Pingvindammen og Koengen har vi
