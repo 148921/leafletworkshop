@@ -68,7 +68,7 @@ map.setView([0,0], 4);
  Pingvindammen-knappen, men den gjør ingenting enda. Fyll inn funksjonen slik at
  kartet endrer visning til Pingvindammen, og zoomer inn. Legg også til event
  listeners for de andre knappene. Koordinatene for Pingvindammen og Koengen har vi
- definert. Koordinatene for Torget på Bakklandet kan du finne ved å klikke i kartet.
+ definert. Koordinatene for Fløybanen kan du finne ved å klikke i kartet.
  Gjerne zoom inn til zoomnivå 18.
 
  Metoden flyTo() kan brukes til dette: http://leafletjs.com/reference-1.4.0.html#map-flyto
