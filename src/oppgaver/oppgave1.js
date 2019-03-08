@@ -50,11 +50,11 @@ map.on('click', onMapClick);
 /*
  Oppgave 1.2
 
- Endre startposisjonen til å vise et oversiktsbilde over Trondheim. Vi har gitt
- dere koordinatene til Olav Tryggvason-statuen på Torget.
+ Endre startposisjonen til å vise et oversiktsbilde over Bergen. Vi har gitt
+ dere koordinatene til Festplassen.
  */
-const olavTryggvason = [63.430, 10.395];
-// Endre den neste linjen slik at kartet viser Trondheim. Bruk zoomnivå 12. Se
+const festplassen = [60.39096, 5.32579];
+// Endre den neste linjen slik at kartet viser Bergen. Bruk zoomnivå 12. Se
 // Se http://leafletjs.com/reference-1.4.0.html#map-methods-for-modifying-map-state
 map.setView([0,0], 4);
 
@@ -63,12 +63,12 @@ map.setView([0,0], 4);
  Oppgave 1.3
 
  Få navigasjonen til å fungere. Over kartet er det fire knapper, som ikke gjør
- noe (enda). Når man klikker på dem, skal kartet vise enten Nidarosdomen, Lerkendal,
- Sykkelheisen eller hele Trondheim. Under har vi lagt til en event listener på
- Nidarosdomen-knappen, men den gjør ingenting enda. Fyll inn funksjonen slik at
- kartet endrer visning til Nidarosdomen, og zoomer inn. Legg også til event
- listeners for de andre knappene. Koordinatene for Nidarosdomen og Lerkendal har vi
- definert. Koordinatene for Sykkelheisen på Bakklandet kan du finne ved å klikke i kartet.
+ noe (enda). Når man klikker på dem, skal kartet vise enten Pingvindammen, Koengen,
+ Torget eller hele Bergen. Under har vi lagt til en event listener på
+ Pingvindammen-knappen, men den gjør ingenting enda. Fyll inn funksjonen slik at
+ kartet endrer visning til Pingvindammen, og zoomer inn. Legg også til event
+ listeners for de andre knappene. Koordinatene for Pingvindammen og Koengen har vi
+ definert. Koordinatene for Torget på Bakklandet kan du finne ved å klikke i kartet.
  Gjerne zoom inn til zoomnivå 18.
 
  Metoden flyTo() kan brukes til dette: http://leafletjs.com/reference-1.4.0.html#map-flyto
@@ -79,9 +79,9 @@ map.setView([0,0], 4);
 */
 
 
-const nidarosdomen = [63.42683, 10.39693];
-const lerkendal = [63.41235, 10.40446];
-document.querySelector('.js-nidarosdomen').addEventListener('click', () => {
+const pingvindammen = [60.39966, 5.30428];
+const koengen = [60.40034, 5.31987];
+document.querySelector('.js-pingvindammen').addEventListener('click', () => {
     // din kode her
 });
 
@@ -108,7 +108,7 @@ document.querySelector('.js-nidarosdomen').addEventListener('click', () => {
  dere kan legge til en hel mengde ulike markører og lag på toppen av
  bakgrunnskartet.
 
- Finn koordinatene til ditt favorittsted i Trondheim, eller et annet sted, om du
+ Finn koordinatene til ditt favorittsted i Bergen, eller et annet sted, om du
  vil. Legg til en markør med L.marker på det stedet.
 
  Se http://leafletjs.com/reference-1.4.0.html#marker

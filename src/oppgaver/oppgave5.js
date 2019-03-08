@@ -43,7 +43,7 @@ function hideLoadingIndicator () {
 
 
 const map = L.map('mapid', {
-    maxBounds: [[62.61356, 7.51465], [65.14611, 14.89746]],
+    maxBounds: [[59.927926, 4.643638], [60.632901, 6.432609]],
     minZoom: 6,
 });
 
@@ -73,7 +73,7 @@ map.on('moveend', function () {
     hentData();
 });
 
-map.setView([63.430, 10.395], 16);
+map.setView([60.39096, 5.32579], 15);
 
 
 
