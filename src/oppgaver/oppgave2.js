@@ -33,7 +33,6 @@ const boundaryNorthEast = [60.632901, 6.432609];
  http://leafletjs.com/reference-1.4.0.html#map-minzoom.
  */
 const map = L.map('mapid', {
-    maxBounds: [[59.927926, 4.643638], [60.632901, 6.432609]],
     // din kode her
 });
 map.addLayer(bakgrunnsLag);
@@ -60,7 +59,6 @@ const pingvindammen = [
     [60.39957, 5.30412],
     [60.39960, 5.30410]
 ];
-L.polygon(pingvindammen, {color: 'green'}).addTo(map);
 // din kode her
 
 
@@ -98,7 +96,6 @@ const floybanen = [
     [60.39496, 5.34099],
     [60.39478, 5.34265],
 ];
-L.polyline(floybanen, {color: "red"}).addTo(map);
 
 // din kode her
 
