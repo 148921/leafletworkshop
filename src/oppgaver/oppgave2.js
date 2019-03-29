@@ -116,7 +116,7 @@ formatere teksten og legge til bilder.
 
 
 /*
- Oppgave 2.6 - refaktorisering av navigasjonen
+ Oppgave 2.6 - Refaktorering av navigasjonen
 
  Alle flyTo-kallene har nå hardkodete koordinater. Skriv dem om til å hente
  koordinatene fra markørene som vi har laget tidligere, slik at tallene bare er
@@ -144,7 +144,7 @@ document.querySelector('.js-floybanen').addEventListener('click', () => {
 });
 
 
-// Denne snutten skal ikke refaktoriseres
+// Denne snutten skal ikke refaktoreres
 document.querySelector('.js-helebergen').addEventListener('click', () => {
     map.flyTo([60.39096, 5.32579], 12, {
         duration
