@@ -153,6 +153,6 @@ document.querySelector('.js-helebergen').addEventListener('click', () => {
 
 
 function onMapClick(e) {
-    console.log('Du klikket på koordinaten [' + e.latlng.lat + ', ' + e.latlng.lng + ']');
+    console.log('Du klikket på koordinatet [' + e.latlng.lat + ', ' + e.latlng.lng + ']');
 }
 map.on('click', onMapClick);
